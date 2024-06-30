@@ -1,0 +1,9 @@
+openai
+python-dotenv
+colorama
+SpeechRecognition
+requests
+youtube-search-python
+pyautogui
+pyttsx3
+redis
