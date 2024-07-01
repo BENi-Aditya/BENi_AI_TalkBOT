@@ -2,6 +2,7 @@
 
 BENi AI Talkbot is an all-rounder assistant powered by OpenAI's GPT-3.5 language model. It provides various functionalities including chat capabilities, weather updates, date/time functions, setting alarms, scheduling tasks, playing music, listening to stories, and engaging in conversational interactions like a friend.
 
+
 </div>
 
 ## Technologies Used
