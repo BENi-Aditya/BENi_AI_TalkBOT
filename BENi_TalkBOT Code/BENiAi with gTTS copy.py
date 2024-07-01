@@ -21,9 +21,9 @@ import subprocess
 
 load_dotenv()
 
-openai.api_key = "sk-proj-hrm9UjAvm6gFl82PMqBaT3BlbkFJVuRv86PKZ7T8kOdsuDsk"
-OPENWEATHERMAP_API_KEY="a16187e79daff4cfca266b069b1f408b"
-YOUTUBE_API_KEY="AIzaSyDU-mzfTesxcFneuwyIRcMzMClRB_Upf0U"
+openai.api_key = os.getenv("OPENAI_API_KEY")
+openweathermap_api_key = os.getenv("OPENWEATHERMAP_API_KEY")
+youtube_api_key = os.getenv("YOUTUBE_API_KEY")
 
 cache = Redis(host='localhost', port=6379)
 def get_cache_key(prompt):

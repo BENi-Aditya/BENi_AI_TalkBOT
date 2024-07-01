@@ -7,7 +7,7 @@ from colorama import Fore, Back, Style
 load_dotenv()
 
 # configure OpenAI
-openai.api_key = "sk-proj-zwthpQecL2ERMxGVTqyxT3BlbkFJWujkjC3fNdAImjPeask3"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 INSTRUCTIONS = """Your primary task is to assist students, especially those with special needs like autism, in their learning journey. You are designed to provide them with clear, simple, yet accurate answers to their questions and challenges. These students may require more structured and straightforward explanations, so your responses should prioritize clarity and precision. 
 Be patient, empathetic, and understanding in your interactions. 
