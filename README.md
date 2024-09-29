@@ -1,11 +1,18 @@
+<div align="center">
+
 # BENi AI Talkbot
+
+<img src="assets/git_logo.png" alt="BENi AI Talkbot" width="800"/>
 
 BENi AI Talkbot is an all-rounder assistant powered by OpenAI's GPT-3.5 language model. It provides various functionalities including chat capabilities, weather updates, date/time functions, setting alarms, scheduling tasks, playing music, listening to stories, and engaging in conversational interactions like a friend.
 
-
 </div>
 
+<div align="center">
+
 ## Technologies Used
+
+</div>
 
 - **OpenAI GPT-3.5**: Powering the conversational capabilities of the assistant.
 - **Python**: Programming language used for backend development.
@@ -14,7 +21,11 @@ BENi AI Talkbot is an all-rounder assistant powered by OpenAI's GPT-3.5 language
 - **OpenWeatherMap API**: Used to retrieve weather data.
 - **YouTube Data API v3**: Enables music playback functionalities.
 
+<div align="center">
+
 ## Installation
+
+</div>
 
 1. **Clone the repository:**
 
@@ -48,12 +59,20 @@ BENi AI Talkbot is an all-rounder assistant powered by OpenAI's GPT-3.5 language
     python main.py
     ```
 
+<div align="center">
+
 ## Usage
+
+</div>
 
 - Start the script, and BENi will prompt you to speak or type questions.
 - Ask questions related to weather, date/time, alarms, scheduling, music, stories, or engage in general conversation.
 
+<div align="center">
+
 ## Contributing
+
+</div>
 
 Contributions are welcome! If you have any suggestions, improvements, or new features to add, feel free to open an issue or create a pull request.
 
